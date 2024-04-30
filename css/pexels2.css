@@ -1,0 +1,416 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap");
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
+
+.bannerImg {
+  height: 500px;
+  background-image: url(../assets/pexels-björn-austmar-þórsson-18666531.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navFont {
+  color: white;
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btnFont {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.form-control {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: rgb(67, 67, 67);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.photosContainer{
+  max-height: 3500px;
+  flex-direction: column;
+  flex-wrap:wrap;
+  align-content:flex-start;
+  max-width:1260px;
+}
+
+.photoContainer{
+  width: 33%;
+  margin-right:2%;
+  margin-bottom: 2%;
+}
+
+.photo{
+  width: 100%;
+}
+
+.mt-5{
+  margin-top: 3rem !important;
+}
+
+@media screen and(max-width: 1199px){
+  .photoContainer{
+    width: 49%;
+  }
+  .photosContainer{
+    max-height: 5500px;
+  }
+}
+
+
+.joinButton {
+  margin: 50px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.titleFont {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.subtitleFont {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.headingSection {
+  margin-top: 80px;
+}
+
+.searchSection {
+  margin-top: 30px;
+}
+
+.btn-outline-success {
+  --bs-btn-color: black;
+  --bs-btn-border-color: rgb(92, 92, 92);
+  --bs-btn-hover-color: none;
+  --bs-btn-hover-bg: none;
+  --bs-btn-hover-border-color: none;
+  --bs-btn-focus-shadow-rgb: none;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #198754;
+  --bs-btn-active-border-color: #198754;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #198754;
+  --bs-btn-disabled-bg: gray;
+  --bs-btn-disabled-border-color: #198754;
+  --bs-gradient: none;
+}
+
+.btn {
+  --bs-btn-bg: rgb(219, 219, 219);
+}
+
+.icon {
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.iconMore {
+  height: 30px;
+  margin-right: 15px;
+  margin-top: 0px;
+}
+
+.joinBtn {
+  margin-top: 10px;
+}
+
+.dropdownFont {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.navigationBar {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+
+.exploreButton {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: transparent;
+  border: none;
+  margin-top: 27px;
+}
+
+.dropdown-menu-dark {
+  --bs-dropdown-color: black;
+  --bs-dropdown-bg: white;
+  --bs-dropdown-link-color: rgb(42, 42, 42);
+  --bs-dropdown-font-size: 14px;
+  --bs-dropdown-link-hover-color: rgb(42, 42, 42);
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 0;
+  left: -84px;
+  margin-top: 80px;
+}
+
+.dropdown-menu {
+  --bs-dropdown-border-width: none;
+}
+
+.navbar {
+  --bs-navbar-nav-link-padding-x: 0.1rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../assets/hamburguer.png);
+}
+
+.btn {
+  --bs-btn-bg: white;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: white;
+  --bs-btn-focus-shadow-rgb: none;
+}
+
+.btn {
+  --bs-btn-padding-x: 0.90rem;
+  --bs-btn-padding-y: 0.5rem;
+}
+
+.navbar-brand {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  color: black;
+  background-color: rgb(212, 212, 212);
+  border-color: rgb(118, 118, 118);
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 8rem;
+}
+
+.btn-secondary {
+  --bs-btn-color: none;
+  --bs-btn-bg: #efefef;
+}
+
+.iconPhoto {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.photographerText {
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.circle {
+  background-color: white;
+  opacity: 0.2;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+}
+
+.creditSection {
+  margin-top: 60px;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.nav-link {
+  color: rgb(66, 66, 66);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+}
+
+.nav {
+  --bs-nav-link-hover-color: black;
+}
+
+.badge {
+  --bs-badge-padding-x: 1.6em;
+  --bs-badge-padding-y: 1em;
+  --bs-badge-font-size: 16px;
+  --bs-badge-font-weight: normal;
+}
+
+.text-bg-dark {
+  color: #fff !important;
+  background-color: black !important;
+}
+
+.secondNavMenu {
+  margin-top: 40px;
+}
+
+.filterSection {
+  margin-top: 20px;
+}
+
+.descriptionText {
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 23px;
+  margin-left: 90px;
+}
+
+.trendingBtn {
+  margin-right: 90px;
+}
+
+.firstImgSection {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.vertical {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.verticalLong {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.horizontal {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.secondImgSection {
+  margin-top: -40px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .headingSection {
+    margin-top: 80px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  .imageContainer {
+    max-width: 1260px;
+  }
+  .descriptionText {
+    margin-left: 56px;
+  }
+  .trendingBtn {
+    margin-right: 60px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .headingSection {
+    margin-top: 80px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .imageContainer {
+    max-width: 1172px;
+  }
+  .descriptionText {
+    margin-left: 13px;
+  }
+  .trendingBtn {
+    margin-right: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 881px) {
+  .headingSection {
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .imageContainer {
+    max-width: 878px;
+  }
+  .descriptionText {
+    margin-left: 13px;
+  }
+  .trendingBtn {
+    margin-right: 12px;
+  }
+}
+@media only screen and (min-width: 882px) and (max-width: 991px) {
+  .headingSection {
+    margin-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .imageContainer {
+    max-width: 963px;
+  }
+  .descriptionText {
+    margin-left: 13px;
+  }
+  .trendingBtn {
+    margin-right: 12px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .headingSection {
+    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .titleFont {
+    font-size: 32px;
+  }
+  .descriptionText {
+    font-size: 23px;
+    margin-left: 20px;
+  }
+  .trendingBtn {
+    margin-right: 19px;
+  }
+  .filterSection {
+    margin-top: 50px;
+  }
+  .imageContainer {
+    max-width: 724px;
+  }
+}/*# sourceMappingURL=pexels2.css.map */
